@@ -1,0 +1,91 @@
+<div class="big-circle">
+    <div class="line line1"></div>
+    <div class="line line2"></div>
+    <div class="line line3"></div>
+    <div class="shadow shadow1"></div>
+    <div class="shadow shadow2"></div>
+    <div class="shadow shadow3"></div>
+</div>
+
+<style>
+
+    body {
+        background: #1a4341;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+    }
+
+    .big-circle, .line {
+        background: #f3ac3c;
+    }
+
+    .big-circle {
+        position: relative;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-top: -15px;
+    }
+
+    .shadow {
+        position: absolute;
+        background: #998235;
+        border-radius: 50%;
+    }
+
+    .shadow1 {
+        width: 30px;
+        height: 30px;
+        left: 20px;
+        top: 20px;
+    }
+
+    .shadow2 {
+        width: 10px;
+        height: 10px;
+        right: 20px;
+        top: 20px;
+    }
+
+    .shadow3 {
+        width: 20px;
+        height: 20px;
+        bottom: 15px;
+        left: 40px;
+    }
+
+    .line {
+        position: absolute;
+        width: 10px;
+        height: 180px;
+        border-radius: 5px;
+    }
+
+    .line1 {
+        left: 45px;
+        top: -50px;
+    }
+
+    .line2 {
+        transform: rotate(-60deg);
+        top: -38px;
+        left: 52px;
+    }
+
+    .line3 {
+        transform: rotate(60deg);
+        top: -38px;
+        left: 52px;
+    }
+    
+</style>
+
+<!-- OBJECTIVE -->
+<!-- Write HTML/CSS in this editor and replicate the given target image in the least code possible. What you write here, renders as it is -->
+
+<!-- SCORING -->
+<!-- The score is calculated based on the number of characters you use (this comment included :P) and how close you replicate the image. Read the FAQS (https://cssbattle.dev/faqs) for more info. -->
+
+<!-- IMPORTANT: remove the comments before submitting -->
