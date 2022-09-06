@@ -1,3 +1,3 @@
 # CSS Challenge
 
-Challenging myself to replicate CSS objects. Source challenge --> https://cssbattle.dev/
+Challenging myself to replicate real-world objects using CSS. Source challenge --> https://cssbattle.dev/
