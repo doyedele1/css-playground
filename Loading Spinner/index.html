@@ -1,1 +1,49 @@
-<div class="spinner"></div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        html, body {
+            height: 100%;
+        }
+
+        .spinner {
+            position: fixed;
+            top: 40%;
+            left: 45%;
+            margin-top: -50px;
+            margin-left: -100px;
+            width: 300px;
+            height: 300px;
+            border-radius: 50%;
+            background: conic-gradient(#3dffc9, #f7c723, #eb0ea5, #3dffc9);
+            animation: spin 1.4s linear infinite;
+            box-shadow: 0px 0px 150px -75px black;
+            border: 4px solid white;
+        }
+
+        .spinner::before {
+            content: "";
+            background-color: white;
+            position: absolute;
+            width: 80%;
+            height: 80%;
+            border-radius: 50%;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: inset 0px 0px 110px -70px black;
+            border: 4px solid white;
+        }
+
+        @keyframes spin {
+            to {
+                transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="spinner"></div>
+</body>
+</html>
